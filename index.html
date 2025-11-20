@@ -1,7 +1,3 @@
-
----
-
-```html
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -20,7 +16,7 @@
       --border-soft: #e5e7eb;
       --radius-lg: 18px;
       --shadow-soft: 0 14px 35px rgba(15, 23, 42, 0.12);
-      --max-width: 960px;
+      --max-width: 1040px;
     }
 
     * {
@@ -295,6 +291,25 @@
       color: var(--text-muted);
       margin-top: 4px;
     }
+
+    .table-like {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.82rem;
+      margin-top: 6px;
+    }
+
+    .table-like th,
+    .table-like td {
+      border: 1px solid #e5e7eb;
+      padding: 4px 6px;
+      vertical-align: top;
+    }
+
+    .table-like th {
+      background: #eff6ff;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
@@ -314,6 +329,8 @@
           <a href="#sau-cuoi">Sau khi cưới</a>
           <a href="#be">Quan hệ với bé</a>
           <a href="#do-luong">Đo lường & xung đột</a>
+          <a href="#nhat-ky">Nhật ký</a>
+          <a href="#faq">FAQ</a>
         </nav>
       </div>
     </header>
@@ -332,7 +349,7 @@
         </div>
         <div class="hero-meta">
           <span>🎯 Mục tiêu: an toàn – rõ ràng – đồng lòng</span>
-          <span>👨‍👩‍👧 Thành viên: bạn – vợ – bé – chồng cũ – bên nội</span>
+          <span>👨‍👩‍👧 Hệ thống: bạn – vợ – bé – chồng cũ – bên nội</span>
         </div>
       </section>
 
@@ -369,13 +386,48 @@
 
             <details>
               <summary>1.3 Kế hoạch 6 tháng chuẩn bị tâm lý</summary>
-              <div class="code-block">
-Tháng 1: Hiểu mình & hiểu hoàn cảnh
-Tháng 2: Xây nền giao tiếp ổn định với vợ
-Tháng 3: Bắt đầu xây dựng quan hệ nhẹ nhàng với bé
-Tháng 4: Thống nhất ranh giới & chồng cũ
-Tháng 5: Tài chính & kế hoạch giáo dục / con chung
-Tháng 6: Mô phỏng cuộc sống hôn nhân, viết bản cam kết
+              <div class="table-like-wrapper">
+                <table class="table-like">
+                  <thead>
+                    <tr>
+                      <th>Tháng</th>
+                      <th>Trọng tâm</th>
+                      <th>Việc chính</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Hiểu mình & hoàn cảnh</td>
+                      <td>Viết kỳ vọng, giới hạn chịu đựng, hiểu đặc điểm bé 6 tuổi.</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>Giao tiếp với vợ</td>
+                      <td>Họp 15' mỗi tuần, dùng câu "Anh cảm thấy...".</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>Kết nối nhẹ với bé</td>
+                      <td>Gặp gỡ, chơi đơn giản, không ép thân.</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>Ranh giới & chồng cũ</td>
+                      <td>Thống nhất cách liên lạc, cách xử lý can thiệp.</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>Tài chính & giáo dục</td>
+                      <td>Chia quỹ, tính chi phí, nói về con chung.</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>Mô phỏng đời sống</td>
+                      <td>Sống thử lịch cuối tuần có bé, viết cam kết.</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </details>
 
@@ -426,6 +478,17 @@ Năm 5: Gia đình vận hành như một hệ thống hoàn chỉnh
                 <li>Tạo nhiều khoảnh khắc tích cực nhỏ mỗi ngày.</li>
               </ul>
             </details>
+
+            <details>
+              <summary>2.4 Bộ quy tắc dành cho vợ: dung hoà chồng mới – con – chồng cũ</summary>
+              <ul>
+                <li>Minh bạch với chồng mới về liên lạc với chồng cũ.</li>
+                <li>Không để con trở thành “người đưa tin” giữa hai bên.</li>
+                <li>Thống nhất với chồng mới trước khi hứa với bên nội.</li>
+                <li>Tôn trọng cảm xúc ghen/bất an của chồng mới và trao đổi sớm.</li>
+                <li>Luôn nhắc con: “Cả bố và mẹ (và chú/anh) đều yêu con.”</li>
+              </ul>
+            </details>
           </section>
 
           <section class="card" id="be">
@@ -449,6 +512,16 @@ Tuần 9–12: Trò chuyện cảm xúc, hoạt động 2 người, ritual gia �
                 <li>Khi bé hỏi “chú/anh là ai?” → “Người bạn lớn của con.”</li>
                 <li>Khi bé hỏi về bố → “Bố con luôn là bố của con, chú/anh chỉ giúp thêm.”</li>
                 <li>Khi bé làm tốt → khen nỗ lực, không gắn nhãn “con giỏi quá”.</li>
+              </ul>
+            </details>
+
+            <details>
+              <summary>3.3 Kịch bản xử lý tình huống khó với bé & bên ngoài</summary>
+              <ul>
+                <li>Bé chống đối: không ép, không cá nhân hoá, cho bé quyền chọn.</li>
+                <li>Bé không muốn về nhà cuối tuần: hỏi cảm xúc, không ép tần suất.</li>
+                <li>Bên nội nói xấu bạn trước mặt bé: trấn an bé, không nói xấu lại.</li>
+                <li>Bé so sánh bạn với bố ruột: chấp nhận, không cạnh tranh.</li>
               </ul>
             </details>
           </section>
@@ -484,11 +557,67 @@ Lúc nào em rảnh mình nói nhẹ lại, để hai đứa hiểu nhau hơn.�
             <details>
               <summary>4.3 Kịch bản xử lý tình huống khó</summary>
               <ul>
-                <li>Bé chống đối: không ép, không cá nhân hoá, cho bé quyền chọn.</li>
                 <li>Chồng cũ gây khó: vợ đứng mũi chịu sào, bạn hỗ trợ phía sau.</li>
                 <li>Bất đồng chuyện dạy bé: không tranh luận trước mặt bé.</li>
                 <li>Bạn thấy bị bỏ rơi: nói về cảm xúc, không đổ lỗi.</li>
-                <li>Bên nội nói xấu bạn: bảo vệ bé, tránh lôi bé vào xung đột.</li>
+                <li>Bên nội can thiệp sâu: đưa quyết định về “họp trong nhà” trước.</li>
+              </ul>
+            </details>
+          </section>
+
+          <section class="card" id="nhat-ky">
+            <span class="pill-label">Thực hành cá nhân</span>
+            <h2>5. Nhật ký thực hành & phản tư (reflection)</h2>
+            <p>
+              Bạn có thể dùng phần này như khung để tự ghi chép (sửa file HTML hoặc ghi ra sổ).
+            </p>
+
+            <details>
+              <summary>5.1 Nhật ký tuần</summary>
+              <div class="code-block">
+Mỗi tuần, trả lời 4 câu:
+1. Tuần này, khoảnh khắc đẹp nhất giữa mình và bé là gì?
+2. Tuần này, lúc nào mình thấy khó chịu nhất? Vì sao?
+3. Mình đã nói/ làm gì khiến vợ cảm thấy được hỗ trợ?
+4. Tuần tới, mình muốn thử thay đổi điều nhỏ nào?
+              </div>
+            </details>
+
+            <details>
+              <summary>5.2 Checklist cuối tháng</summary>
+              <ul>
+                <li>Mình có la mắng hoặc tranh cãi trước mặt bé không?</li>
+                <li>Đã có ít nhất 1–2 buổi dành riêng cho vợ chưa?</li>
+                <li>Đã có khoảnh khắc “riêng hai người” với bé chưa?</li>
+                <li>Có điều gì mình đang né tránh nói với vợ không?</li>
+              </ul>
+            </details>
+          </section>
+
+          <section class="card" id="faq">
+            <span class="pill-label">Hỏi – đáp nhanh</span>
+            <h2>6. FAQ – Câu hỏi thường gặp</h2>
+
+            <details>
+              <summary>Bé không chịu gọi mình là gì, có sao không?</summary>
+              <p>
+                Không sao. Đừng ép. Danh xưng sẽ đến sau khi cảm xúc đủ an toàn. Quan trọng là cách bạn đối xử với bé, không phải bạn được gọi là gì.
+              </p>
+            </details>
+
+            <details>
+              <summary>Mình thấy khó chịu khi vợ nói chuyện với chồng cũ?</summary>
+              <p>
+                Cảm xúc đó bình thường. Điều quan trọng là bạn nói với vợ bằng ngôn ngữ cảm xúc ("Anh thấy bất an...") thay vì buộc tội ("Em lúc nào cũng..."). Đồng thời, hai người thiết lập quy tắc minh bạch để bạn yên tâm hơn.
+              </p>
+            </details>
+
+            <details>
+              <summary>Khi nào nên đi gặp chuyên gia tâm lý?</summary>
+              <ul>
+                <li>Xung đột lặp lại, nói hoài vẫn không giải quyết được.</li>
+                <li>Bé có dấu hiệu stress mạnh (mất ngủ, sợ về nhà, thu mình quá mức...).</li>
+                <li>Một trong hai người thấy mình "kiệt sức cảm xúc".</li>
               </ul>
             </details>
           </section>
@@ -512,6 +641,17 @@ Lúc nào em rảnh mình nói nhẹ lại, để hai đứa hiểu nhau hơn.�
           </section>
 
           <section class="card">
+            <span class="pill-label">Thực chiến</span>
+            <h3>Mini checklist mỗi ngày</h3>
+            <ul>
+              <li>Mình đã mỉm cười với bé ít nhất 1 lần chưa?</li>
+              <li>Mình đã nói 1 câu tích cực với vợ chưa?</li>
+              <li>Mình có vô tình nói xấu ai đó trước mặt bé không?</li>
+              <li>Mình đã lắng nghe hơn là phản ứng chưa?</li>
+            </ul>
+          </section>
+
+          <section class="card">
             <span class="pill-label">Dành cho vợ của bạn</span>
             <h3>5 nguyên tắc dung hoà chồng mới – con – chồng cũ</h3>
             <ul>
@@ -524,11 +664,11 @@ Lúc nào em rảnh mình nói nhẹ lại, để hai đứa hiểu nhau hơn.�
           </section>
 
           <section class="card">
-            <span class="pill-label">Ghi chú cá nhân</span>
-            <h3>Cách dùng trang này</h3>
+            <span class="pill-label">Cách dùng</span>
+            <h3>Sử dụng trang này như sổ tay</h3>
             <p>
-              Bạn có thể in ra, đánh dấu, hoặc ghi thêm ý riêng vào từng mục (nếu
-              sửa file HTML). Mỗi 3–6 tháng, quay lại xem:
+              Bạn có thể in ra, đánh dấu, hoặc chỉnh sửa file HTML để thêm ghi chú riêng.
+              Mỗi 3–6 tháng, quay lại xem:
             </p>
             <ul>
               <li>Chúng ta đang làm tốt ở mục nào?</li>
