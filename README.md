@@ -1,4 +1,3 @@
-# family-checklist
 # Hướng Dẫn Xây Dựng Gia Đình Tái Hôn (Gia đình có con riêng)
 
 Repo này lưu trữ toàn bộ **kế hoạch, quy tắc, kịch bản giao tiếp và lộ trình dài hạn**  
